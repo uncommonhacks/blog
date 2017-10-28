@@ -2,6 +2,9 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugridway"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "docs"
 
 [params]
 background = "#EF6398"
