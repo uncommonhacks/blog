@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://www.uncommonhacks.github.io/blog/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Uncommon Blog"
 theme = "hugridway"
 contentdir = "content"
 layoutdir = "layouts"
