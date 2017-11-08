@@ -1,0 +1,3 @@
+[submodule "themes/hugridway"]
+	path = themes/hugridway
+	url = https://github.com/uncommonhacks/hugridway.git
