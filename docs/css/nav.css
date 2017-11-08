@@ -1,7 +1,7 @@
 
 @font-face {
+    src: url({{ .Site.BaseURL }}"blahfonts/Beef'd.ttf");
     font-family: "Beef'd";
-    src: url("{{ .Site.BaseURL }}fonts/Beef'd.ttf");
 }
 
 .nav {
