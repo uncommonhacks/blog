@@ -10,21 +10,376 @@
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta name="author" content="" />
-        <link rel="stylesheet" type="text/css" href="https://uncommonhacks.github.io/blog/css/default.css" />
-        <link rel="stylesheet" type="text/css" href="https://uncommonhacks.github.io/blog/css/component.css" />
-        <link rel="stylesheet" type="text/css" href="https://uncommonhacks.github.io/blog/css/front.css" />
-        <link rel="stylesheet" type="text/css" href="https://uncommonhacks.github.io/blog/css/nav.css" />
+        <style>
+            
+@font-face {
+    src: url("https://uncommonhacks.github.io/blog/fonts/Beef'd.ttf");
+    font-family: "Beef'd";
+}
 
+.nav {
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    display: inline;
+    font-size: 100%;
+    font-weight: 300;
+    color: white;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+
+#nav-bar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.social-media {
+    right: 60px;
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+}
+
+.media {
+    height: 30px;
+}
+
+.facebook, .twitter, .messenger {
+    margin-right: 7px;
+}
+
+.no-underline:link, .no-underline:visited, .no-underline:hover, .no-underline:active {
+    text-decoration: none;
+}
+
+@media all and (min-width: 700px) {
+    .nav {
+        font-size:130%;
+    }
+
+    .nav:link, .nav:visited, .nav:hover, .nav:active {
+        color: white;
+    }
+
+}
+
+        </style>
+        <style>
+            
+body {
+    background-color: #EF6398 !important;
+}
+
+.grid-elem {
+    width: 390px;
+    height: 390px;
+    color: white;
+    margin: 0 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* --- */
+html {
+    height: 100%;
+    color: gray;
+}
+
+body {
+    height:100%;
+    background: black;
+}
+
+.header {
+    font-family: "Beef'd", ChicagoFLF, Krungthep, Silom, monospace;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    z-index: 100;
+}
+
+.side {
+    color: white;
+    height:45%;
+    width:100%;
+    padding: 10% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#make-back-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    color: white;
+    height: 45%;
+    width: 100%;
+    background: #82EAFF;
+    z-index: 1;
+}
+
+.txt {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    z-index: 100;
+}
+
+.divider {
+    border: solid 1px;
+    width: 60px;
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+
+#make, #hack {
+    display: none;
+}
+
+.always-visible {
+    position: relative;
+    z-index: 10;
+}
+
+.toggle-info {
+    position: relative;
+    z-index: 0;
+}
+
+/* greater things */
+
+.header {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.txt {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.divider {
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.click-make {
+    border: solid 3px white;
+    margin-top: 15px;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 30px;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  overflow-x: auto;
+  padding-left: 60px;
+  padding-top: 200px;
+}
+
+.uncommon {
+  position: fixed;
+  margin-left: 75px;
+  margin-top: 130px;
+  font-family: "Beef'd";
+  color: white;
+  font-size: 50px;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  display: block;
+  padding: 20px 20px 20px 30px;
+  font-weight: 200;
+}
+
+.summary {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 200;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0px;
+}
+
+li:nth-last-child(1) {
+  padding-right: 50px;
+}
+
+/* header, hack-txt, divider, hack, info, click-make */
+
+
+@media all and (min-width: 700px) {
+
+    .header {
+        font-size: 400%;
+    }
+
+    .side {
+        height: 100%;
+        width:50%;
+    }
+
+    #make-back-side {
+        height:100%;
+        width:50%;
+    }
+
+    #hack-back-side {
+        top:0;
+        left:50%;
+        height:100%;
+        width:50%;
+    }
+
+    #make-side {
+        float:left;
+    }
+
+    #hack-side {
+        float:right;
+    }
+
+    .txt {
+        font-size:200%;
+    }
+
+    .info {
+        font-size:150%;
+    }
+
+    .divider {
+        margin: 0 auto 3.5rem;
+    }
+
+}
+
+        </style>
+        <style>
+            
+        </style>
+        <style>
+            /* General Demo Style */
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container > header {
+	width: 90%;
+	max-width: 1240px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 30px 50px 30px;
+}
+
+.container > header {
+	padding: 60px 30px 50px;
+	text-align: center;
+}
+
+.container > header h1 {
+	font-size: 34px;
+	line-height: 38px;
+	margin: 0 auto;
+	font-weight: 700;
+	color: #333;
+}
+
+.container > header h1 span {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main > p {
+	text-align: center;
+	padding: 50px 20px;
+}
+
+        </style>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     </head>
     <body>
         <div class="container">
-            <div class="main">
-                <ul id="og-grid" class="og-grid">
+            <span class="uncommon">UNCOMMON</span>
+                <ul id="" class="main">
                     
                     <li>
                         <a href="https://uncommonhacks.github.io/blog/blog/test3/">
                             <div class="grid-elem" style="background-color: #8968AC">
-                                Test3
+                                <span class="title">Something longer like asdf</span>
+                                <span class="summary">blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</span>
                             </div>
                         </a>
                     </li>
@@ -32,7 +387,8 @@
                     <li>
                         <a href="https://uncommonhacks.github.io/blog/blog/test2/">
                             <div class="grid-elem" style="background-color: #EEE365">
-                                Test2
+                                <span class="title">Test2</span>
+                                <span class="summary">blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</span>
                             </div>
                         </a>
                     </li>
@@ -40,7 +396,8 @@
                     <li>
                         <a href="https://uncommonhacks.github.io/blog/blog/test1/">
                             <div class="grid-elem" style="background-color: #82D2E6">
-                                Test1
+                                <span class="title">Test1</span>
+                                <span class="summary">blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</span>
                             </div>
                         </a>
                     </li>
@@ -48,17 +405,16 @@
                     <li>
                         <a href="https://uncommonhacks.github.io/blog/blog/blah/">
                             <div class="grid-elem" style="background-color: #EFA02E">
-                                Blah
+                                <span class="title">Blah</span>
+                                <span class="summary">blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</span>
                             </div>
                         </a>
                     </li>
                     
                 </ul>
-            </div>
         </div>
         <div id="nav-bar">
-      <span class="nav logo">Uncommon</span>
-      <a class="nav" href="mailto:sponsorship@uncommonhacks.com">sponsor</a>
+      <a class="nav" href="https://uncommonhacks.com">home</a>
       <div class="social-media">
           <a class="no-underline" href="http://facebook.com/uncommonhacks" target="_blank"> <img class="media facebook" src="https://uncommonhacks.github.io/blog/images/thumbs/facebook.svg"/> </a>
         <a class="no-underline" href="http://twitter.com/uncommonhacks" target="_blank"> <img class="media twitter" src="https://uncommonhacks.github.io/blog/images/thumbs/twitter.svg"/> </a>

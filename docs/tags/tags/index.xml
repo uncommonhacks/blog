@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Test3</title>
+      <title>Something longer like asdf</title>
       <link>https://uncommonhacks.github.io/blog/blog/test3/</link>
       <pubDate>Sat, 28 Oct 2017 12:33:47 -0500</pubDate>
       
       <guid>https://uncommonhacks.github.io/blog/blog/test3/</guid>
-      <description></description>
+      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Sat, 28 Oct 2017 12:33:43 -0500</pubDate>
       
       <guid>https://uncommonhacks.github.io/blog/blog/test2/</guid>
-      <description></description>
+      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Sat, 28 Oct 2017 12:33:40 -0500</pubDate>
       
       <guid>https://uncommonhacks.github.io/blog/blog/test1/</guid>
-      <description>blah</description>
+      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Mon, 23 Oct 2017 15:18:14 -0500</pubDate>
       
       <guid>https://uncommonhacks.github.io/blog/blog/blah/</guid>
-      <description>blah blah</description>
+      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
     </item>
     
   </channel>
