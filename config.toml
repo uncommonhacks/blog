@@ -1,4 +1,4 @@
-baseURL = "https://uncommonhacks.github.io/blog/"
+baseURL = "https://blog.uncommonhacks.com/"
 languageCode = "en-us"
 title = "Uncommon Blog"
 theme = "hugridway"
