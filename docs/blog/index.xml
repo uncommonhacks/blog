@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Uncommon Blog</title>
+    <title>Blogs on Uncommon Hacks Blog</title>
     <link>https://blog.uncommonhacks.com/blog/</link>
-    <description>Recent content in Blogs on Uncommon Blog</description>
+    <description>Recent content in Blogs on Uncommon Hacks Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Oct 2017 12:33:47 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 13 Dec 2017 12:33:40 -0500</lastBuildDate>
     
 	<atom:link href="https://blog.uncommonhacks.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Something longer like asdf</title>
-      <link>https://blog.uncommonhacks.com/blog/test3/</link>
-      <pubDate>Sat, 28 Oct 2017 12:33:47 -0500</pubDate>
+      <title>UNDER CONSTRUCTION</title>
+      <link>https://blog.uncommonhacks.com/blog/construction/</link>
+      <pubDate>Wed, 13 Dec 2017 12:33:40 -0500</pubDate>
       
-      <guid>https://blog.uncommonhacks.com/blog/test3/</guid>
-      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
-    </item>
-    
-    <item>
-      <title>Test2</title>
-      <link>https://blog.uncommonhacks.com/blog/test2/</link>
-      <pubDate>Sat, 28 Oct 2017 12:33:43 -0500</pubDate>
-      
-      <guid>https://blog.uncommonhacks.com/blog/test2/</guid>
-      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
+      <guid>https://blog.uncommonhacks.com/blog/construction/</guid>
+      <description>This site is under construction… more to come soon!</description>
     </item>
     
     <item>
