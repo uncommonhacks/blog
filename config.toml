@@ -1,6 +1,6 @@
 baseURL = "https://blog.uncommonhacks.com/"
 languageCode = "en-us"
-title = "Uncommon Blog"
+title = "Uncommon Hacks Blog"
 theme = "hugridway"
 contentdir = "content"
 layoutdir = "layouts"
