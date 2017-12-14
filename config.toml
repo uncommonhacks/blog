@@ -8,4 +8,4 @@ publishdir = "docs"
 
 [params]
 background = "#EF6398"
-palette = ["#8968AC","#EEE365","#82D2E6","#EFA02E","#89CDB7","#67B9E7"]
+palette = ["#8968AC","#82D2E6","#EFA02E","#89CDB7","#67B9E7"]
