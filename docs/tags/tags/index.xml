@@ -2,49 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Uncommon Blog</title>
-    <link>https://uncommonhacks.github.io/blog/tags/tags/</link>
+    <link>https://blog.uncommonhacks.com/tags/tags/</link>
     <description>Recent content in Tags on Uncommon Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Oct 2017 12:33:47 -0500</lastBuildDate>
     
-	<atom:link href="https://uncommonhacks.github.io/blog/tags/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.uncommonhacks.com/tags/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Something longer like asdf</title>
-      <link>https://uncommonhacks.github.io/blog/blog/test3/</link>
+      <link>https://blog.uncommonhacks.com/blog/test3/</link>
       <pubDate>Sat, 28 Oct 2017 12:33:47 -0500</pubDate>
       
-      <guid>https://uncommonhacks.github.io/blog/blog/test3/</guid>
+      <guid>https://blog.uncommonhacks.com/blog/test3/</guid>
       <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
     </item>
     
     <item>
       <title>Test2</title>
-      <link>https://uncommonhacks.github.io/blog/blog/test2/</link>
+      <link>https://blog.uncommonhacks.com/blog/test2/</link>
       <pubDate>Sat, 28 Oct 2017 12:33:43 -0500</pubDate>
       
-      <guid>https://uncommonhacks.github.io/blog/blog/test2/</guid>
+      <guid>https://blog.uncommonhacks.com/blog/test2/</guid>
       <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
-    </item>
-    
-    <item>
-      <title>Test1</title>
-      <link>https://uncommonhacks.github.io/blog/blog/test1/</link>
-      <pubDate>Sat, 28 Oct 2017 12:33:40 -0500</pubDate>
-      
-      <guid>https://uncommonhacks.github.io/blog/blog/test1/</guid>
-      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
-    </item>
-    
-    <item>
-      <title>Blah</title>
-      <link>https://uncommonhacks.github.io/blog/blog/blah/</link>
-      <pubDate>Mon, 23 Oct 2017 15:18:14 -0500</pubDate>
-      
-      <guid>https://uncommonhacks.github.io/blog/blog/blah/</guid>
-      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
     </item>
     
   </channel>

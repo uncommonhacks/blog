@@ -2,49 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Uncommon Blog</title>
-    <link>https://uncommonhacks.github.io/blog/blog/</link>
+    <link>https://blog.uncommonhacks.com/blog/</link>
     <description>Recent content in Blogs on Uncommon Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Oct 2017 12:33:47 -0500</lastBuildDate>
     
-	<atom:link href="https://uncommonhacks.github.io/blog/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.uncommonhacks.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Something longer like asdf</title>
-      <link>https://uncommonhacks.github.io/blog/blog/test3/</link>
+      <link>https://blog.uncommonhacks.com/blog/test3/</link>
       <pubDate>Sat, 28 Oct 2017 12:33:47 -0500</pubDate>
       
-      <guid>https://uncommonhacks.github.io/blog/blog/test3/</guid>
+      <guid>https://blog.uncommonhacks.com/blog/test3/</guid>
       <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
     </item>
     
     <item>
       <title>Test2</title>
-      <link>https://uncommonhacks.github.io/blog/blog/test2/</link>
+      <link>https://blog.uncommonhacks.com/blog/test2/</link>
       <pubDate>Sat, 28 Oct 2017 12:33:43 -0500</pubDate>
       
-      <guid>https://uncommonhacks.github.io/blog/blog/test2/</guid>
+      <guid>https://blog.uncommonhacks.com/blog/test2/</guid>
       <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
     </item>
     
     <item>
-      <title>Test1</title>
-      <link>https://uncommonhacks.github.io/blog/blog/test1/</link>
-      <pubDate>Sat, 28 Oct 2017 12:33:40 -0500</pubDate>
+      <title>2017 Guide</title>
+      <link>https://blog.uncommonhacks.com/blog/2017-guide/</link>
+      <pubDate>Fri, 13 Jan 2017 12:00:00 -0500</pubDate>
       
-      <guid>https://uncommonhacks.github.io/blog/blog/test1/</guid>
-      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
-    </item>
-    
-    <item>
-      <title>Blah</title>
-      <link>https://uncommonhacks.github.io/blog/blog/blah/</link>
-      <pubDate>Mon, 23 Oct 2017 15:18:14 -0500</pubDate>
-      
-      <guid>https://uncommonhacks.github.io/blog/blog/blah/</guid>
-      <description>blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj blah blah asldfkaldf asdlfkjasldkfj</description>
+      <guid>https://blog.uncommonhacks.com/blog/2017-guide/</guid>
+      <description>This guide for Uncommon Hacks 2017 was originally posted on GitHub
+We cannot wait for you to attend Uncommon Hacks January 14-15 at the Polsky Exchange in Chicago, Illinois. We hope you make friends, learn, meme out, but most importantly, have fun ᖍ(ツ)ᖌ.
+Before the Hackathon What to Bring Here are some common choices of things to bring to a hackathon.
+ Computer  Or any other hardware you are interested in using  Chargers  Phone Charger Computer Charger  Spare clothes  Changing clothes is an awesome feeling if you’re into it We also recommend bringing a hoodie incase it gets cold  Blanket / sleeping bag  We will be providing sleeping mattresses, but it might get cold, especially since it’s January :(.</description>
     </item>
     
   </channel>

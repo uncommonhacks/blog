@@ -3,49 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://uncommonhacks.github.io/blog/blog/test3/</loc>
+    <loc>https://blog.uncommonhacks.com/blog/test3/</loc>
     <lastmod>2017-10-28T12:33:47-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://uncommonhacks.github.io/blog/blog/test2/</loc>
+    <loc>https://blog.uncommonhacks.com/blog/test2/</loc>
     <lastmod>2017-10-28T12:33:43-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://uncommonhacks.github.io/blog/blog/test1/</loc>
-    <lastmod>2017-10-28T12:33:40-05:00</lastmod>
+    <loc>https://blog.uncommonhacks.com/blog/2017-guide/</loc>
+    <lastmod>2017-01-13T12:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://uncommonhacks.github.io/blog/blog/blah/</loc>
-    <lastmod>2017-10-23T15:18:14-05:00</lastmod>
+    <loc>https://blog.uncommonhacks.com/tags/2017/</loc>
+    <lastmod>2017-01-13T12:00:00-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://uncommonhacks.github.io/blog/blog/</loc>
+    <loc>https://blog.uncommonhacks.com/blog/</loc>
     <lastmod>2017-10-28T12:33:47-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://uncommonhacks.github.io/blog/categories/</loc>
+    <loc>https://blog.uncommonhacks.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://uncommonhacks.github.io/blog/tags/</loc>
+    <loc>https://blog.uncommonhacks.com/tags/</loc>
+    <lastmod>2017-01-13T12:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://uncommonhacks.github.io/blog/tags/tags/</loc>
+    <loc>https://blog.uncommonhacks.com/tags/tags/</loc>
     <lastmod>2017-10-28T12:33:47-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://uncommonhacks.github.io/blog/</loc>
+    <loc>https://blog.uncommonhacks.com/</loc>
     <lastmod>2017-10-28T12:33:47-05:00</lastmod>
     <priority>0</priority>
   </url>

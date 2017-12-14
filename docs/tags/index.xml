@@ -2,20 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Uncommon Blog</title>
-    <link>https://uncommonhacks.github.io/blog/tags/</link>
+    <link>https://blog.uncommonhacks.com/tags/</link>
     <description>Recent content in Tags on Uncommon Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jan 2017 12:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://uncommonhacks.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.uncommonhacks.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>2017</title>
+      <link>https://blog.uncommonhacks.com/tags/2017/</link>
+      <pubDate>Fri, 13 Jan 2017 12:00:00 -0500</pubDate>
+      
+      <guid>https://blog.uncommonhacks.com/tags/2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tags</title>
-      <link>https://uncommonhacks.github.io/blog/tags/tags/</link>
+      <link>https://blog.uncommonhacks.com/tags/tags/</link>
       <pubDate>Sat, 28 Oct 2017 12:33:47 -0500</pubDate>
       
-      <guid>https://uncommonhacks.github.io/blog/tags/tags/</guid>
+      <guid>https://blog.uncommonhacks.com/tags/tags/</guid>
       <description></description>
     </item>
     
